@@ -78,7 +78,7 @@ function DriverPage() {
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
               placeholder="Enter your phone number"
-              className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF]"
+              className="w-full p-4  border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF]"
             />
           </div>
         </div>
@@ -91,7 +91,7 @@ function DriverPage() {
           <Select value={city} onValueChange={(value) => setCity(value)}>
             <SelectTrigger
               id="city"
-              className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF]"
+              className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF]"
             >
               <SelectValue placeholder="Select your city" />
             </SelectTrigger>

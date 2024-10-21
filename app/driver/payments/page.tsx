@@ -103,7 +103,7 @@ function DriverPage() {
             value={formValues.paymentType}
             onChange={handleChange}
             placeholder="Enter payment type"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
 
@@ -119,7 +119,7 @@ function DriverPage() {
             value={formValues.accountName}
             onChange={handleChange}
             placeholder="Enter account name"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
 
@@ -138,7 +138,7 @@ function DriverPage() {
             value={formValues.accountNumber}
             onChange={handleChange}
             placeholder="Enter account number"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
 
@@ -154,7 +154,7 @@ function DriverPage() {
             value={formValues.bankName}
             onChange={handleChange}
             placeholder="Enter bank name"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
         {/* Bank Name */}
@@ -169,7 +169,7 @@ function DriverPage() {
             value={formValues.address}
             onChange={handleChange}
             placeholder="Enter bank name"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
 
@@ -188,7 +188,7 @@ function DriverPage() {
             value={formValues.nextOfKinName}
             onChange={handleChange}
             placeholder="Enter relationship"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
         <div className="space-y-2">
@@ -207,7 +207,7 @@ function DriverPage() {
             value={formValues.nextOfKinPhoneNumber}
             onChange={handleChange}
             placeholder="Enter relationship"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
         <div className="space-y-2">
@@ -226,7 +226,7 @@ function DriverPage() {
             value={formValues.nextOfKinRelationship}
             onChange={handleChange}
             placeholder="Enter relationship"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
 
@@ -246,7 +246,7 @@ function DriverPage() {
             value={formValues.bvnNin}
             onChange={handleChange}
             placeholder="Enter BVN or NIN"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
         </div>
 

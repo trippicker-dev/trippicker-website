@@ -95,7 +95,7 @@ function DriverPage() {
               placeholder="First Name"
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
-              className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+              className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
             />
           </div>
         </div>
@@ -112,7 +112,7 @@ function DriverPage() {
               placeholder="Last Name"
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
-              className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+              className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
             />
           </div>
         </div>
@@ -130,7 +130,7 @@ function DriverPage() {
               placeholder="driver@gmail.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+              className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
             />
             <Button className="bg-[#40EC24] text-white p-2 md:p-3 rounded-2xl h-auto font-bold hover:bg-[#2ecc71] transition-all">
               Verify
@@ -150,7 +150,7 @@ function DriverPage() {
           >
             <SelectTrigger
               id="gender"
-              className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF]"
+              className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF]"
             >
               <SelectValue placeholder="Select your gender" />
             </SelectTrigger>
@@ -175,7 +175,7 @@ function DriverPage() {
               id="code"
               name="referralCode"
               placeholder="5789"
-              className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+              className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
             />
           </div>
           <p className="text-gray-400">
@@ -214,7 +214,7 @@ function DriverPage() {
                 placeholder="Vehicle Name"
                 value={vehicleBrand}
                 onChange={(e) => setVechicleBrand(e.target.value)}
-                className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+                className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
               />
             </div>
 
@@ -232,7 +232,7 @@ function DriverPage() {
                 placeholder="Vehicle Model"
                 value={vehicleModel}
                 onChange={(e) => setVechicleModel(e.target.value)}
-                className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+                className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
               />
             </div>
 
@@ -250,7 +250,7 @@ function DriverPage() {
                 placeholder="Vehicle Manufacturer"
                 value={vehicleYear}
                 onChange={(e) => setVechicleYear(e.target.value)}
-                className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+                className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
               />
             </div>
 
@@ -268,7 +268,7 @@ function DriverPage() {
                 placeholder="License Plate"
                 value={vehiclePlateNumber}
                 onChange={(e) => setVechiclePlateNumber(e.target.value)}
-                className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+                className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
               />
             </div>
 
@@ -284,7 +284,7 @@ function DriverPage() {
                 id="vehicleColor"
                 name="vehicleColor"
                 placeholder="Vehicle Color"
-                className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+                className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
               />
             </div>
           </div>

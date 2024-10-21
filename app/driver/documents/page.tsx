@@ -59,7 +59,7 @@ function DriverPage() {
       formData.append("nextOfKinPhoneNumber", refData.nextOfKinPhoneNumber);
       formData.append("nextOfKinRelationship", refData.nextOfKinRelationship);
       formData.append("paymentType", refData.paymentType);
-       
+
       // Append formValues from the stored data, if available
       if (refData.formValues) {
         for (const key in refData.formValues) {
@@ -129,7 +129,7 @@ function DriverPage() {
             value={licenseNumber}
             onChange={(e) => setLicenseNumber(e.target.value)}
             placeholder="Enter License Number"
-            className="w-full p-2 md:p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
+            className="w-full p-4 border border-gray-300 bg-[#EFEFEF] text-gray-700 rounded-2xl h-auto focus:outline-none focus:ring-2 focus:ring-[#5800FF] placeholder:text-gray-400"
           />
           <p className="text-gray-400">License number on driver’s documents</p>
         </div>
