@@ -3,8 +3,8 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <footer className="bg-[#060012]">
-      <div className=" w-full py-10 text-white">
-        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-8">
+      <div className="w-full py-10 text-white">
+        <div className="container mx-auto flex flex-row flex-wrap justify-between items-center px-4 md:px-8">
           {/* Left section - Logo and social media */}
           <div className="flex flex-col items-center md:items-start mb-8 md:mb-0">
             <Image src="/logo.svg" height={100} width={100} alt="Logo" />
@@ -68,6 +68,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
+
       <div className="w-full mt-8 text-white">
         {/* Copyright Section */}
         <div className="bg-[#120032] py-4 text-center">
